@@ -15,8 +15,6 @@ if ($theater == "1") {
 
 # split the code with "<"
 @lines = split(/</,$doc);
-@time = ();
-$isPrint = 0;
 
 binmode(STDOUT, ":encoding(utf8)");
 foreach $line (@lines) {
